@@ -1,0 +1,55 @@
+header{
+    width: 70%;
+    margin: auto;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    padding:10px;
+}
+
+.cf:before,
+.cf:after{
+    content: "";
+    display: table;
+}
+.cf:after{
+    clear: both;
+}
+
+#section1{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+#section2{
+    padding: 20px;
+    float: right;
+    width: 60%;
+    border-left: 2px solid black;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+   display:block;
+   float:left; 
+   margin-top: 18px;
+}
+
+#naslov{
+    float: left;
+}
+
+h6{
+    margin-top: -10px;
+}
+
+
+
