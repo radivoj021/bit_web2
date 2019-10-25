@@ -1,0 +1,226 @@
+body{
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
+   
+}
+#logo h1{
+    margin:0;
+    float: left;
+}
+
+.header{
+    width:100%;
+    text-transform: uppercase;
+    background-image: url("./images/banner3.jpg");
+    background-size:cover;
+    height:900px;
+  
+    
+}
+#logo{
+    margin: 0px 0 0 5px;
+    padding: 10px 0 0 10px;
+    
+
+}
+.build{
+    color:orange;
+    border-top:3px  solid white;
+    border-left:3px  solid white;
+    border-bottom:3px  solid white;
+    padding: 0px 0 0 5px;
+
+   
+}
+.list{
+    list-style-type: none;
+    text-transform: uppercase;
+    color:white;
+    font-size:15px;
+    float:right;
+    height:200px;
+   display:table;
+}
+.cf:before,.cf:after{
+    content:"";
+    display:table;
+    
+}
+
+.cf:after{
+    clear:both;
+
+}
+
+li{
+    display: inline;
+   margin-right: 10px;
+    font-weight: bold;
+}
+
+ul{
+    float: right;
+}
+
+#naslov2 h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding:450px 10% 0  ;
+    font-size:60px;
+}
+#button{
+    background-color:#499edf;
+    border:0px;
+    border-radius:20px;
+    padding:10px 20px;
+    width:140px;
+    color: white;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+#naslov3{
+    text-align: center;
+    padding: 30px;
+    margin-left:40px;
+    
+}
+.kockica{
+    width:10px;
+    height:10px;
+    border: 2px solid black;
+    transform:rotate(45deg);
+    margin-top:-5px;
+}
+.underline{
+   width:30%;
+   margin:auto;
+   
+}
+.levo{
+    border-bottom: 2px solid black;
+    width:40%;
+    
+   
+}
+
+.underline div{
+   float:left;
+}
+.desno{
+    border-bottom: 2px solid black;
+    width:40%;
+}
+
+#mainContent{
+    width: 70%;
+    margin: auto;
+   
+
+}
+
+
+#mainContent.cf:before,.cf:after{
+    content:"";
+    display:table;
+    
+}
+
+#mainContent.cf:after{
+    clear:both;
+
+}
+
+
+
+#mainContent div{
+    width: 30%;
+    display: inline;
+    float: left;
+    margin: auto;
+    padding:0 20px;
+}
+.slicica{
+    width:399px;
+    margin-top:20px;
+}
+
+#main2 ,#main1{
+    margin-right:5%;
+}
+
+#mainContent:nth-child(3){
+    margin-right:0px;
+}
+h2{
+    color:#2698de;
+}
+#podnaslov{
+    color:black;
+    margin-right:70px;
+}
+#naslov4{
+    text-align: center;
+    padding: 30px;
+ 
+}
+
+#podnaslov1{
+    color:black;
+    margin-right:70px;
+}
+
+.ljudi{
+    width:90%;
+    margin:auto;
+    height:500px;
+    
+    
+}
+
+
+
+.part1{
+    background-color:blue;
+    padding:20px;
+    width:30%;
+   
+      
+}
+
+
+#t1{
+    border-radius:50%;
+    border:2px solid white;
+    padding:1px;
+    float:left;
+    height:100px;
+   
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+    
+}
+
+.cf:after{
+    clear:both;
+
+}
+
+
+span .fa fa-star {
+    color:white;
+    size:12px;
+    
+}
+
+.sporedno{
+    margin:auto;
+    float:left;
+}
