@@ -59,7 +59,7 @@ li{
     font-weight: bold;
 }
 
-ul{
+.list ul {
     float: right;
 }
 
@@ -86,7 +86,7 @@ ul{
 #naslov3{
     text-align: center;
     padding: 30px;
-    margin-left:40px;
+    
     
 }
 .kockica{
@@ -104,7 +104,7 @@ ul{
 .levo{
     border-bottom: 2px solid black;
     width:40%;
-    
+    margin-left: 50px;
    
 }
 
@@ -159,11 +159,11 @@ ul{
 h2{
     color:#2698de;
 }
-#podnaslov{
+#podnaslov, #podnaslov2, #podnaslov3{
     color:black;
-    margin-right:70px;
+
 }
-#naslov4{
+#naslov4, #naslov5{
     text-align: center;
     padding: 30px;
  
@@ -171,24 +171,29 @@ h2{
 
 #podnaslov1{
     color:black;
-    margin-right:70px;
 }
 
 .ljudi{
     width:90%;
     margin:auto;
-    height:500px;
+    height:300px;
     
     
+}
+
+.part1:nth-child(3){
+    margin-right: 0px;
 }
 
 
 
 .part1{
-    background-color:blue;
-    padding:20px;
+    background-color:#82c3f5;
+    padding: 20px;
     width:30%;
-   
+   float: left;
+   margin-right: 1%;
+
       
 }
 
@@ -222,5 +227,145 @@ span .fa fa-star {
 
 .sporedno{
     margin:auto;
+    text-align: center;
+    padding-right: 100px;
+    color:white;
+}
+
+.boxText{
+    margin-top: 50px;
+    color: white;
+}
+.sporedno h6{
+    color:#000;
+    font-size:18px;
+    margin-bottom:5px;
+}
+
+.boje{
+    width:100%;
+    display:inline;
     float:left;
+
+    
+  
+}
+.zelena{
+    background-color:#55ce59;
+    text-align:center;
+    width:25%;
+    float:left;
+    height:260px;
+    
+}
+.pink{
+    background-color:#c15378;
+    text-align:center;
+    width:25%;
+    float:left;
+    height:260px;
+   
+   
+}
+.plava{
+    background-color:#2196f3;
+    text-align:center;
+    width:25%;
+    float:left;
+    height:260px;
+    
+    
+}
+.kuca{
+    background-color:#82c3f5;
+    text-align:center;
+    width:25%;
+    float:left;
+    height:260px;
+    
+}
+.boje h3{
+    margin-top:50px;
+}
+
+.fa-mobile {
+    font-size:30px;
+    margin-top:7px;
+}
+.fa-envelope{
+    font-size:20px;
+    margin-right:10px;
+}
+.pink i{
+ margin-right:10px;
+ margin-left:10px;
+
+}
+.boje{
+    color:white;
+}
+
+.mapa{
+    width:100%;
+}
+#naslov6{
+    text-align: center;
+    padding: 30px;
+   
+}
+.cf7{
+    width:70%;
+    margin:auto;
+}
+
+.cf7 input{
+    width: 32%;
+    margin-right:2%;
+    height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+
+#phone{
+    margin: 0px;
+}
+
+.cf7 textarea{
+    width: 100%;
+    border: 1px solid black;
+    height: 200px;
+    padding: 5px;
+    margin-top: 30px;
+     margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.cf7 button{
+    background-color: orange;
+    border: none;
+    padding:10px 30px 10px 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+#footer{
+    background-color: black;
+    height: 100%;
+    color: white;
+    padding-top:100px;
+    
+   
+}
+
+.zajedno{
+    margin:auto;
+    width: 70%;
+    text-align:center;
+   
+}
+#footer p{
+    padding: 0  0 100px 0;
 }

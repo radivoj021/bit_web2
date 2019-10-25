@@ -1,0 +1,30 @@
+
+@media  all and (min-width: 1685px) {
+
+}
+
+@media all and (min-width: 1201px) and (max-width: 1684px) {
+    .part1 {
+        width:29%;
+    }
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1200px) { 
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+
+
+
+
