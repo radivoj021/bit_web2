@@ -1,100 +1,99 @@
-
-ul li{
-    float: right;
-    color: aliceblue;
-    padding: 15px;
-
+ul li {
+  float: right;
+  color: aliceblue;
+  padding: 15px;
 }
-.cf:before, .cf:after{
-    content: "";
-    display: table;
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
 }
-.cf::after{
-    clear: both;
-
+.cf::after {
+  clear: both;
 }
-ul{
-    width: 100%;
-    float: right;
-    display: inline;
-    background-color: brown;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+ul {
+  width: 100%;
+  float: right;
+  display: inline;
+  background-color: brown;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-div{
-    width: 1000px;
-    margin:auto;
-
+div {
+  width: 1000px;
+  margin: auto;
 }
-div img{
-    width: 100%;
-    padding: 0;
+div img {
+  width: 100%;
+  padding: 0;
 }
-#subdiv{
-    margin: 10px;
+#subdiv {
+  margin: 10px;
 }
-#subdiv img{
-    width: 300px;
-    height: 200px;
+#subdiv img {
+  width: 300px;
+  height: 200px;
 }
-#firstBox{
-    width: 300px;
-    float: left;
+#firstBox {
+  width: 300px;
+  float: left;
 }
-#secondBox{
-    width: 300px;
-    float: left;
+#secondBox {
+  width: 300px;
+  float: left;
 }
-#thirdBox{
-    width: 300px;
-    height: 436px;
-    float: right;
-    
+#thirdBox {
+  width: 300px;
+  height: 436px;
+  float: right;
 }
-#fourthBox{
-    width: 300px;
-    float: left;
+#fourthBox {
+  width: 300px;
+  float: left;
 }
-#fifthBox{
-    width: 300px;
-    float: left;
+#fifthBox {
+  width: 300px;
+  float: left;
 }
-#sixthBox{
-    width: 300px;
-    float: left;
+#sixthBox {
+  width: 300px;
+  float: left;
 }
-#seventhBox{
-    width: 300px;
-    float: left;
+#seventhBox {
+  width: 300px;
+  float: left;
 }
-#eighthBox{
-    width: 300px;
-    float: left;
+#eighthBox {
+  width: 300px;
+  float: left;
 }
-#ninethBox{
-    width: 300px;
-    float: left;
+#ninethBox {
+  width: 300px;
+  float: left;
 }
-#subdiv div{
-    margin: 10px;
+#subdiv div {
+  margin: 10px;
 }
 
-#list{
-    background-color: #FFBF00;
-    width: 300px;
-    padding: 20px;
-    float: right;
-
-
+#list {
+  background-color: #ffbf00;
+  width: 300px;
+  padding: 20px;
+  float: right;
 }
 
-#footer{
-    background-color: rgb(16, 16, 107);
-    height: 40px;
-    width: 1300px;
-    color: white;
+#footer {
+  background-color: rgb(16, 16, 107);
+  height: 40px;
+  width: 1300px;
+  color: white;
 }
-#footer p{
-    padding: 10px;
+#footer p {
+  padding: 10px;
+}
+
+.bg-light {
+  background-color: #a52a2a !important;
+  padding: 0;
 }
