@@ -1,0 +1,22 @@
+.style div {
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  height: 50px;
+  background-color: lightgray;
+}
+
+#box {
+  border: none;
+  background-color: transparent;
+}
+.style1 div {
+  height: 100px;
+}
+
+.style1 {
+  height: 200px;
+}
+
+.style1 div {
+  height: 100%;
+}
