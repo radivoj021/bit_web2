@@ -1,0 +1,26 @@
+#naslov h1, hr{
+    text-align: center;
+}
+
+#bodyPage{
+    text-align: center;
+}
+
+#podnaslov h2{
+    margin: 0 auto;
+}
+
+#bart{
+    width: 100%;
+}
+
+#reward{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tabela div{
+    background-color: lightgray;
+    border: 2px solid white;
+}
+
