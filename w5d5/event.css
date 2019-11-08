@@ -1,0 +1,76 @@
+.color{
+    background-color: brown;
+}
+
+.color1{
+    background-color: white;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#chatWindow{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    flex: 1;
+    overflow: scroll;
+    }
+
+    #message{
+        width: 90%;
+        margin: 0 auto;
+        height: 50px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    #input{
+        width: 70%;
+        float: left;
+        padding: 8px;
+    }
+
+#send{
+    width: 28%;
+    float: right;
+    border: 0;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+#send:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+p{
+    background-color: red;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(158,31,67);
+    background: linear-gradient(43deg, rgba(158,31,67,0.9612219887955182) 0%, rgba(108,102,209,1) 100%);
+    font-size: 30px;
+
+}
+
+body{
+    background-image: url('img/field.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#player{
+    position: absolute;
+    width: 200px;
+
+}
