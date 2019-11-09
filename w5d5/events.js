@@ -19,23 +19,24 @@ first.onclick = function () {
 
 //var element2 = document.getElementById('second');
 
-/*
 second.onclick = function () {
 
 };
 
 function send() {
+    var chatWindow = document.getElementById('chatWindow'); 
     var div = document.createElement('div');
     var elem = document.createElement('p');
     var poruka = document.getElementById('input').value;
     var text = document.createTextNode(poruka);
-    var chatWindow = document.getElementById('chatWindow');
+       
     elem.appendChild(text);
     div.appendChild(elem);
     chatWindow.appendChild(div);
-    var poruka = document.getElementById('input').value = "";
+
+    poruka = document.getElementById('input').value = "";
 }
- */
+
 
 
 function move() {

@@ -1,0 +1,58 @@
+body{
+    background-color: gray;
+}
+
+#chatW{
+    width: 90%;
+    height: 800px;
+    background-color: #D8CEF6;
+    margin: 0 auto;
+    border: 2px solid white;
+    overflow: auto;
+}
+
+#message{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#txt{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #D8CEF6;
+}
+
+#btn{
+    width: 27%;
+    float: right;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#btn:hover{
+    width: 27%;
+    float: right;
+    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #8A0808;
+    color: white;
+}
+
+p{
+    background-color: red;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-radius: 10px;
+
+}
