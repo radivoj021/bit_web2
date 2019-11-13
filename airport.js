@@ -1,29 +1,31 @@
-function Person(name, surname){
-    this.name = name;
-    this.surname = surname;
-
-    this.getData = function(){
-        return this.name + " " + this.surname;
-    }
+function Person(name, surname) {
+  this.name = name;
+  this.surname = surname;
 }
 
-function Seat(number, category){
-    this.number = number;
-    this.category = category;
+Person.prototype.getData = function() {
+  return this.name + " " + this.surname;
+};
 
-    this.getData = function(){
-        return "\t" + this.number + " " + this.category + "\n" + "---------------------";
-    }
+function Seat(number, category) {
+  this.number = number;
+  this.category = category;
 }
 
-function Passenger(person, seat){
-    this.person = person;
-    this.seat = seat;
+Seat.prototype.getData = function() {
+  return (
+    "\t" + this.number + " " + this.category + "\n" + "---------------------"
+  );
+};
 
-    this.getData = function(){
-        return this.person.getData() + "\n" + this.seat.getData();
-    }
+function Passenger(person, seat) {
+  this.person = person;
+  this.seat = seat;
 }
+
+Passenger.prototype.getData = function() {
+  return this.person.getData() + "\n" + this.seat.getData();
+};
 
 var pera = new Person("Pera", "Peric");
 var zika = new Person("Zika", "Zikic");
