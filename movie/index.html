@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <div id="field">
+        <form id="form">
+            <label>Title</label><br />
+            <input type="text" id="title">
+
+            <label>Length</label><br />
+            <input type="number" id="length">
+
+            <label>Genre</label><br />
+            <select id="select">
+                <option value="drama">-</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedy</option>
+                <option value="action">Action</option>
+            </select>
+            <span id="error">-</span>
+            <input type="button" id="btn" value="Add Movie">
+        </form>
+
+        <ul id="output">
+
+        </ul>
+
+        <div id="allLength">
+            All length:
+            <br /><br />
+            <div id="all">-</div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="./mvc.js"></script>
+</body>
+
+</html>
