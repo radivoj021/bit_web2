@@ -1,4 +1,4 @@
-/* class Movie {
+class Movie {
     constructor(title, length, genre) {
         this.title = title;
         this.length = length;
@@ -11,9 +11,7 @@
 }
 
 var btn = document.querySelector("#btn");
-
 btn.addEventListener("click", addMovie);
-
 
 
 function addMovie() {
@@ -39,9 +37,3 @@ function addMovie() {
     }
 
 }
-
-
- */
-
-
-/* https://github.com/taniarascia/mvc */

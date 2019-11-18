@@ -1,4 +1,4 @@
-var dataModule = (function () {
+var dataController = (function () {
     class Movie {
         constructor(title, length, genre) {
             this.title = title;
@@ -10,22 +10,10 @@ var dataModule = (function () {
             return `Title: ${this.title} | Duration: ${this.length} | Genre: ${this.genre} `;
         }
     }
-    return {
-        dataModule
-    }
 })()
 
 
-var ctrlModule = (function (uiModule, dataModule) {
-
-    var btn = document.querySelector("#btn");
-
-    btn.addEventListener("click", dataModule);
-
-})()
-
-
-var uiModule = (function () {
+var uiController = (function (uiModule, dataController) {
     function addMovie() {
         var title = document.querySelector("#title").value;
         var length = document.querySelector("#length").value;
@@ -35,7 +23,7 @@ var uiModule = (function () {
         var form = document.querySelector("#form");
 
         var movie = new Movie(title, length, genre);
-
+        console.log(movie.getData());
 
         var error = document.querySelector("#error");
         if (!title || !length) {
@@ -45,10 +33,12 @@ var uiModule = (function () {
             li.append(movie.getData());
             output.append(li);
             form.reset();
-
         }
-    }
-    return {
-        uiModule
-    }
-})()
+    }) ()
+
+
+    var mainController = (function () {
+        var btn = document.querySelector("#btn");
+        btn.addEventListener("click", addMovie);
+
+    })()
